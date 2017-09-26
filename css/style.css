@@ -3,6 +3,15 @@ body {
     padding: 0;
 }
 
+* a:link {
+    text-decoration: none;
+    color: white;
+}
+
+* a:hover {
+    text-decoration: underline;
+}
+
 #header {
     background-color: #460000;
     width: 100%;
@@ -35,9 +44,8 @@ body {
 }
 
 #headmenu li>a {
-    color: white;
     font: 14px "宋体";
-    text-decoration: none;
+    color: white;
 }
 
 .icon {
@@ -47,12 +55,12 @@ body {
 }
 
 #banner {
-	height: 500px;
-	background-image: url(../img/banner-bg.jpg);
-	background-size: cover;
-	background-position: center;
-	background-repeat: no-repeat;
-	position: relative;
+    height: 500px;
+    background-image: url(../img/banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
 }
 
 #banner .text {
@@ -84,72 +92,111 @@ body {
     text-align: center;
     padding: 10px 0 100px;
 }
-.include{
-		display: inline-block;
-	margin: 0;
-	padding:0;
-	width: 1000px;
-	overflow: hidden;
-	border: 1px solid black;
 
+.include {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    width: 1000px;
+    overflow: hidden;
+    border: 1px solid black;
 }
-#pic1,#pic2,#pic3{
-	vertical-align: top;
-	display: inline-block;
-	background: white;
-	margin:0 5px;
-	width: 320px;
-	padding-top : 10px;
-	padding-bottom: 1000px;
-	margin-bottom: -1000px;
 
+#pic1,
+#pic2,
+#pic3 {
+    vertical-align: top;
+    display: inline-block;
+    background: white;
+    margin: 0 5px;
+    width: 320px;
+    padding-top: 10px;
+    padding-bottom: 1000px;
+    margin-bottom: -1000px;
 }
-#pic1>p,#pic2>p,#pic3>p{
-	margin: 15px 0 25px;
-	padding: 0 30px;
-	font: 12px;
-	line-height: 170%;
+
+#pic1>p,
+#pic2>p,
+#pic3>p {
+    margin: 15px 0 25px;
+    padding: 0 30px;
+    font: 12px;
+    line-height: 170%;
 }
-#introduce{
-	text-align: center;
-	height: 600px;
-	background: white;
+
+#introduce {
+    text-align: center;
+    height: 600px;
+    background: white;
 }
-.round{
-	margin-top: -50px;
-	width: 160px;
-	height: 160px;
-	border-radius: 50%;
+
+.round {
+    margin-top: -50px;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
 }
-#introduce h1{
-	margin: 50px;
-	color: black;
-	font: 20px "Century Gothic";
+
+#introduce h1 {
+    margin: 50px;
+    color: black;
+    font: 20px "Century Gothic";
 }
-#introduce p{
-	display: inline-block;
-	color: black;
-	font: 14px/30px sans-serif;
-	width: 600px;
+
+#introduce p {
+    display: inline-block;
+    color: black;
+    font: 14px/30px sans-serif;
+    width: 600px;
 }
-#footermenu{
-	height: 400px;
-	background-color: black;
-	text-align: center;
+
+#footermenu {
+    height: 400px;
+    background-color: black;
+    text-align: center;
 }
+
 #footermenu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-#footermenu li {
+#footermenu>ul>li {
     display: inline-block;
-    padding:5px 20px 0;
+    padding: 5px 20px 0;
 }
 
 #footermenu li>a {
-    color: white;
     font: 14px "宋体";
-    text-decoration: none;
+    color: white;
+}
+
+.link {
+    display: inline-block;
+    width: 1000px;
+}
+
+.link p {
+    color: gray;
+}
+
+.link>ul {
+    float: left;
+    width: 200px;
+}
+
+.link li {
+    margin: 10px;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+footer>a {
+    display: block;
+    margin: 10px 0 -5px;
 }
