@@ -1,0 +1,81 @@
+.container{
+    background: black;
+    height: 1200px;
+    width: 100%;
+    position: relative;
+}
+.content{
+    width: 980px;
+    background: #D1D1D1;
+    position: absolute;
+    left: 50%;
+    margin-left: -490px;
+    padding-top: 20px;
+}
+.article{
+    width: 690px;
+    background: white;
+    margin-bottom: 10px;
+    padding: 20px 10px 50px;
+}
+.article>table{
+    width: 50px;
+    height: 80px;
+      border-collapse:collapse;
+      float: left;
+      margin-left: -60px;
+}
+.article>h3{
+    font-size: 16px;
+    color: #B60000;
+}
+.article>h4{
+    font-size: 12px;
+    color: #666;
+}
+.text{
+    text-indent: 2em;
+        font-size: 14px;
+}
+.sign{
+    font-size: 12px;
+    float: right;
+    margin: 10px;
+    color: gray;
+}
+.tdate{
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    background-color: #460000;
+}
+.ttype{
+    width: 50px;
+    height: 40px;
+        text-align: center;
+
+    vertical-align: middle;
+    color: white;
+    background-color: #B60000;
+}
+.sidebar{
+    background: #7A6B6B;
+    float: right;
+    margin-top: -1200px;
+    height: 1200px;
+    width: 250px;
+}
+.keyword{
+    height: 80px;
+}
+.types{
+    height:200px;
+}
+.datetable{
+    height: 240px;
+}
+.tags{
+    height: 200px;
+}

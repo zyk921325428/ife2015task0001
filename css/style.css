@@ -1,4 +1,4 @@
-body {
+* {
     margin: 0;
     padding: 0;
 }
@@ -54,104 +54,8 @@ body {
     bottom: 0;
 }
 
-#banner {
-    height: 500px;
-    background-image: url(../img/banner-bg.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-}
-
-#banner .text {
-    background-color: white;
-    opacity: 0.3;
-    width: 300px;
-    height: 160px;
-    padding: 10px 10px 30px;
-    position: absolute;
-    right: 50%;
-    bottom: 0;
-    margin-right: -490px;
-}
-
-.text h3 {
-    text-align: right;
-    font: 14px;
-}
-
-.text p {
-    margin-top: 12px;
-    font: 12px;
-    line-height: 150%;
-    word-break: break-all;
-}
-
-#mid {
-    background: #D1D1D1;
-    text-align: center;
-    padding: 10px 0 100px;
-}
-
-.include {
-    display: inline-block;
-    margin: 0;
-    padding: 0;
-    width: 1000px;
-    overflow: hidden;
-    border: 1px solid black;
-}
-
-#pic1,
-#pic2,
-#pic3 {
-    vertical-align: top;
-    display: inline-block;
-    background: white;
-    margin: 0 5px;
-    width: 320px;
-    padding-top: 10px;
-    padding-bottom: 1000px;
-    margin-bottom: -1000px;
-}
-
-#pic1>p,
-#pic2>p,
-#pic3>p {
-    margin: 15px 0 25px;
-    padding: 0 30px;
-    font: 12px;
-    line-height: 170%;
-}
-
-#introduce {
-    text-align: center;
-    height: 600px;
-    background: white;
-}
-
-.round {
-    margin-top: -50px;
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-}
-
-#introduce h1 {
-    margin: 50px;
-    color: black;
-    font: 20px "Century Gothic";
-}
-
-#introduce p {
-    display: inline-block;
-    color: black;
-    font: 14px/30px sans-serif;
-    width: 600px;
-}
-
 #footermenu {
-    height: 400px;
+    height: 300px;
     background-color: black;
     text-align: center;
 }
@@ -164,7 +68,7 @@ body {
 
 #footermenu>ul>li {
     display: inline-block;
-    padding: 5px 20px 0;
+    padding: 10px 20px 5px;
 }
 
 #footermenu li>a {
@@ -178,6 +82,7 @@ body {
 }
 
 .link p {
+	margin-top: 10px;
     color: gray;
 }
 
